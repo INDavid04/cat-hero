@@ -1,0 +1,83 @@
+/**********************************************************/
+/*                                                        */
+/*  Cat hero                                              */
+/*  datestamp: 8 July 2023                                */
+/*  timestamp: 10:21 - TODO                               */
+/*                                                        */
+/**********************************************************/
+body {
+  background-color: #0B0100;
+  color: #A1ACA2;
+  text-align: center;
+}
+
+footer {
+  font-size: 1.4rem;
+}
+
+a {
+  color: #00FFDD;
+}
+
+a:focus, a:hover {
+  text-decoration: none;
+}
+
+.CatHeroContainer {
+  padding: 0.5rem;
+  height: 100vh;
+  color: #A1ACA2;
+  background: #0B0100;
+}
+
+.CatHeroNavList {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.CatHeroBack {
+  padding: 0.5rem;
+  flex-grow: 1;
+}
+
+.CatHeroHome {
+  padding: 0.5rem;
+  flex-grow: 1;
+}
+
+.CatHeroNavLink {
+  padding: 1rem 3rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.CatHeroNavLink:focus, .CatHeroNavLink:hover {
+  opacity: 0.7;
+}
+
+.CatHeroNavText {
+  color: #A1ACA2;
+}
+
+#cat-primary {
+  color: #24647A;
+}
+
+#cat-secondary {
+  color: #474CC7;
+}
+
+.CatHeroSection {
+  height: 80vh;
+  background: url("../img/cat.gif");
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.CatHeroFooter {
+  margin-top: -7rem;
+}/*# sourceMappingURL=styles.css.map */

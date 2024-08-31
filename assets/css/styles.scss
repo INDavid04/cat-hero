@@ -1,0 +1,33 @@
+/**********************************************************/
+/*                                                        */
+/*  Cat hero                                              */
+/*  datestamp: 8 July 2023                                */
+/*  timestamp: 10:21 - TODO                               */
+/*                                                        */
+/**********************************************************/
+
+$cat-primary: #24647A; $cat-secondary: #474CC7; $cat-text: #A1ACA2; $cat-background: #0B0100; $cat-cta: #00FFDD;
+
+body { background-color: $cat-background; color: $cat-text; text-align: center; }
+footer { font-size: 1.4rem; }
+a { color: $cat-cta; }
+a:focus, a:hover { text-decoration: none; }
+
+.CatHeroContainer { padding: 0.5rem; height: 100vh; color: $cat-text; background: $cat-background; }
+    .CatHeroNav {  }
+        .CatHeroNavList { display: flex; justify-content: center; list-style: none; margin: 0; padding: 0; }
+            .CatHeroBack { padding: 0.5rem; flex-grow: 1; }
+            .CatHeroHome { padding: 0.5rem; flex-grow: 1; }
+                .CatHeroNavLink { padding: 1rem 3rem; text-decoration: none; font-size: 1.5rem; line-height: 2rem; }
+                .CatHeroNavLink:focus, .CatHeroNavLink:hover { opacity: 0.7; }
+                    .CatHeroReturn {  }
+                    .CatHeroLogo {  }
+                    .CatHeroNavText { color: $cat-text; }
+                        #cat-primary { color: $cat-primary; }
+                        #cat-secondary { color: $cat-secondary; }
+    .CatHeroSection { height: 80vh; background: url("../img/cat.gif"); background-repeat: no-repeat; background-position: 50%; }
+        #cat-hero-title {  }
+        .CatHeroSubtitle {  }
+        .CatHeroCTAButton {  }
+    .CatHeroFooter { margin-top: -7rem; }
+        #cat-hero-terms {  }
